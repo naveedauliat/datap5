@@ -82,14 +82,14 @@ function drawTitle() {
     
     // Main title with glow effect
     fill(232, 180, 76, 30);
-    textSize(48);
+    textSize(40);
     textStyle(BOLD);
     for (let i = 0; i < 3; i++) {
-        text("☕ Global Coffee Production & Consumption", width/2, 70 + i);
+        text("☕ Global Coffee Production & Consumption", width/2, 50 + i);
     }
     
     fill(255);
-    text("☕ Global Coffee Production & Consumption", width/2, 70);
+    text("☕ Global Coffee Production & Consumption", width/2, 50);
     
     // Subtitle
     textSize(16);
